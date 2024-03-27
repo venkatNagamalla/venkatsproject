@@ -1,0 +1,60 @@
+
+.react-player-container{
+    width:100%;
+    margin-top: 20px;
+}
+
+.about-route-container{
+    padding: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+
+}
+
+.about-container{
+    width:100%;
+}
+
+.about-heading{
+    font-size: 30px;
+    text-align: center;
+}
+
+.about-text{
+    font-size: 15px;
+    line-height: 1.23;
+    letter-spacing: 0.2px;
+    margin-top: 15px;
+    margin-bottom: 15px;text-align: center;
+}
+
+@media screen and (min-width:768px){
+    .about-container{
+        width: 60%;
+        margin-right: 25px;
+    }
+    .react-player-container{
+        width: 30%;
+        margin-left: 10px;
+        margin-top: 0px;
+    }
+    .about-route-container{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width:100%;
+    }
+    .about-heading{
+        text-align: left;
+        font-size: 32px;
+    }
+    .about-text{
+        text-align: left;
+        font-size: 15px;
+        width: 85%;
+    }
+}

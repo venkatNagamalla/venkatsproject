@@ -1,0 +1,27 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  min-height: 100vh;
+}
+
+.routes-container {
+  margin-top: 18px;
+  background:linear-gradient(to top, #b9b7b730, #eeedebda);
+  width: 100%;
+  min-height: 100vh;
+  box-shadow: 1px 2px 12px 0px #a8adad;
+}
+
+@media screen and (min-width: 768px) {
+  .main-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .routes-container {
+    margin-top: 0px;
+    margin-left: 20px;
+    overflow-y: auto;
+    flex-grow: 1;
+  }
+}

@@ -1,0 +1,16 @@
+
+.home-container{
+    min-height:100%;
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+@media screen and (min-width:768px){
+    .home-container{
+        padding: 25px 10px 25px 20px;
+    }
+}
